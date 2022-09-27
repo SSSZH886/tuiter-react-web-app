@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.wd-header{
+    margin-top: 12px;
+    margin-left: 16px;
+   border-bottom: 1px solid rgb(47, 51, 54);
+}
+#gear {
+    color: rgb(48, 158, 195);
+}
+a:hover {
+    color: red;
+    font-size: 20px;
+}
+.wd-b{
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.wd-post{
+    display: flex;
+    
+}
+.wd-c{
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.wd-name{
+    display: flex;
+}
+.wd-e{
+    border-bottom: 1px solid rgb(47, 51, 54);
+    max-width: 504px;
+    margin-left: 70px;
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    border-radius: 0px 0px 25px 25px;
+}
+.wd-container{
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+.wd-bottom{
+    display: flex;
+    justify-content: space-around;
+    max-width: 504px;
+    margin-left: 25px;
+    margin-top: 12px;
+    padding: 12px;
+}
