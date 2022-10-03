@@ -1,0 +1,61 @@
+<div class="wd-search-bar">
+        <div id="search">
+            <input type="text" placeholder="Search Twitter">
+            <a href="./explore-settings.html"><span style='font-size:30px;' id="gear">&#9881;</span></a>
+        </div>
+
+        <div id="headers">
+            <a href="url">For you</a>
+            <a href="url">Trending</a>
+            <a href="url">COVID-19</a>
+            <a href="url">News</a>
+            <a href="url">Sports</a>
+            <a href="url">Entertainment</a>
+        </div>
+    </div>
+
+    <div class="wd-content">
+        <p style="font-size: 13px;color: rgb(110,118,125)">Trending in Science</p>
+        <h2>Starship</h2>
+        <p style="font-size: 13px;color: rgb(110,118,125)">55.5k Tweets</p>
+    </div>
+
+
+
+    <div class="wd-content">
+        <p style="font-size: 13px;color: rgb(110,118,125)">Sports Trending</p>
+        <h2>Joe Rogan</h2>
+        <p style="font-size: 13px;color: rgb(110,118,125)">5,218 Tweets</p>
+    </div>
+
+
+    <div class="wd-content" id="D">
+        <div><p style="font-size: 13px;color: rgb(110,118,125)">The New York Times</p>
+        <h2>CNN's Cuomo conundrum: A star anchor with a brother in trouble</h2></div>
+        <img src="newyorktimes.jpg" style="z-index: 10; height: 100px; width: 150px; padding-right: 16px;border-radius: 30px;">
+    </div>
+
+
+    <div class="wd-content" id="D">
+        <div>
+            <p style="font-size: 13px;color: rgb(110,118,125)">COVID-19 LIVE</p>
+            <h2>COVID-19: News and updates for Massachusetts</h2>
+        </div>
+        <img src="covid.jpg" style="z-index: 10; height: 100px; width: 150px; padding-right: 16px;border-radius: 30px;">
+    </div>
+
+
+    <div class="wd-content" id="D">
+        <div>
+            <p style="font-size: 13px;color: rgb(110,118,125)">Bloomberg Opinion Yesterday</p>
+            <h2>Thinking about getting a booster? Read this first.</h2>
+        </div>
+        <img src="booster.jpg" style="z-index: 10; height: 100px; width: 150px; padding-right: 16px;border-radius: 30px;">
+    </div>
+
+
+    <div class="wd-content">
+        <p style="font-size: 13px;color: rgb(110,118,125)">Trending in  United States</p>
+        <h2>Wonder Bread</h2>
+        <p style="font-size: 13px;color: rgb(110,118,125)">1, 259 Tweets</p>
+    </div>
