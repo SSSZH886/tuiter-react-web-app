@@ -1,0 +1,31 @@
+.fa-home{
+    color: white;
+}
+.fa-hashtag{
+    color: white;
+}
+.fa-bell{
+    color: white;
+}
+.fa-envelope-square{
+    color: white;
+}
+.fa-bookmark{
+    color: white;
+}
+.fa-list{
+    color: white;
+}
+.fa-user-circle{
+    color: white;
+}
+input[type="text"]{
+
+    background-color : darkgray; 
+}
+.fa-cog{
+    color: white;
+}
+.fa-comment-dots{
+    color: white;
+}
