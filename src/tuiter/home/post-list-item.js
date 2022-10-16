@@ -16,11 +16,11 @@ const PostListItem = (
  return(
   <li className="list-group-item">
     <div className="row">
-        <div className="col-2 "> <img alt="avatar" width={55} height={55} style={{borderRadius:'50%', marginLeft:"40px"}} src={`/image/${tuit.avatar}`}/></div>
+        <div className="col-2 "> <img alt="qwe" width={55} height={55} style={{borderRadius:'50%', marginLeft:"40px"}} src={`/image/${tuit.avatar}`}/></div>
         <div className="col-8">
             <div className="fs-6 text-black-50">{tuit.author} @{tuit.account} -2h</div>
             <div className = "fs-6 text-black"> {tuit.content} </div>
-            <div> <img alt="image" style={{height: "100%", width: "100%"}}  src={`/image/${tuit.image}`}/></div>
+            <div> <img alt="wer" style={{height: "100%", width: "100%"}}  src={`/image/${tuit.image}`}/></div>
             <div className="fs-6 text-black">{tuit.title} </div>
             <div className="fs-6 text-black-50">{tuit.bot_content} </div>
         </div>
