@@ -37,4 +37,10 @@ const NavigationSidebar = () => {
 </div>
     `);
    }
+
+const currentLocation = location.href;
+const menuItem = document.querySelector(".list-group-item");
+
+console.log(menuItem)
+
    export default NavigationSidebar;
