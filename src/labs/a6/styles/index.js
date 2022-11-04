@@ -1,3 +1,4 @@
+
 const Styles = () => {
     const colorBlack = {
       color: "black"
@@ -14,6 +15,7 @@ const Styles = () => {
       "backgroundColor": "lightcoral",
       ...colorBlack,
       ...padding10px
+
     };
     return(
       <div>
@@ -25,7 +27,9 @@ const Styles = () => {
           Red background</div>
         <div style={bgBlue}>
           Blue background</div>
+         
       </div>
+
     );
    };
    export default Styles;
