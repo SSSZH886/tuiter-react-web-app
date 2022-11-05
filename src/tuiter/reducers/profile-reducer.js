@@ -1,13 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
-import profileArray from "../data/profiles.json";
+import profile from "../data/profiles.json";
 
 const profileSlice = createSlice({
- name: "profiles",
- initialState: profileArray,
+ name: "profile",
+ initialState: {profile},
  reducers: {
     updateProfile(state, action){
-        const profileName = state.findIndex((profile)=> profile.lastName === action.payload.lastName)
-        state[profileName] = action.payload;
+        state.profile = action.payload
     }
   }
 });
